@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dc6b50eef62bf24b9ef4695528f4c5b, type: 3}
+  m_Name: LevelDataGlobalConfig
+  m_EditorClassIdentifier: 
+  mapConfigs:
+  - level: 1
+    tiledConfigs:
+    - tiledConfigs:
+      - tiledType: 2
+        unitType: 0
+        gateType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 0
+        gateType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        gateType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 2
+        unitType: 0
+        gateType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        gateType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        gateType: 0
+        colorType: 0
+        rotateY: 0

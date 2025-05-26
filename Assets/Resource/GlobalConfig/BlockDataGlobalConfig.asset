@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ebd480331a53649ab70f6a569bfe28, type: 3}
+  m_Name: BlockDataGlobalConfig
+  m_EditorClassIdentifier: 
+  materialData:
+  - colorType: 2
+    material: {fileID: 2100000, guid: fc240b0fa3690b7499caa8b3c39dfcd5, type: 2}
+  - colorType: 0
+    material: {fileID: 2100000, guid: 1d00e8ef2a69486478d87225dd361cb4, type: 2}
+  blockDataConfig:
+  - vectorRightDefault: {x: 0, y: 0.5, z: 0.5}
+    pointColliders:
+    - {x: 0, y: 0}
+    type: 0
+    mesh: {fileID: 1936672354724532145, guid: d91f9a84d6a7e104196f3b19a040f9ac, type: 3}
+  - vectorRightDefault: {x: -0.5, y: 0.5, z: 0.5}
+    pointColliders:
+    - {x: 0, y: 0}
+    - {x: -1, y: 0}
+    type: 1
+    mesh: {fileID: -2726944478717252435, guid: c7b18aef14e49084e909e5e54d122408, type: 3}
+  - vectorRightDefault: {x: 0, y: 0.5, z: 0.5}
+    pointColliders:
+    - {x: 0, y: 0}
+    - {x: 0, y: -1}
+    - {x: 0, y: -2}
+    type: 2
+    mesh: {fileID: -1248833613768361310, guid: 651b374fc755a5948a79c87f32045821, type: 3}
+  - vectorRightDefault: {x: 0, y: 0.5, z: 0.5}
+    pointColliders:
+    - {x: 0, y: 0}
+    - {x: -1, y: 0}
+    - {x: 1, y: 0}
+    - {x: -1, y: -1}
+    type: 4
+    mesh: {fileID: 4395067960153190133, guid: a9c3b5268fdb0b54cabc4c12a0e3926e, type: 3}
+  - vectorRightDefault: {x: 0, y: 0.5, z: 1.5}
+    pointColliders:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: -1, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: -1}
+    type: 5
+    mesh: {fileID: 6874022470594667717, guid: 96648af90982d4742b96784a7718e06e, type: 3}
+  - vectorRightDefault: {x: -0.5, y: 0.5, z: 0.5}
+    pointColliders:
+    - {x: 0, y: 0}
+    - {x: 0, y: -1}
+    - {x: -1, y: 0}
+    - {x: -1, y: -1}
+    type: 6
+    mesh: {fileID: 5393576991594637978, guid: 3ff5e11ff539b9541848aae702e9eb59, type: 3}
+  - vectorRightDefault: {x: 0, y: 0.5, z: 0.5}
+    pointColliders:
+    - {x: 0, y: 0}
+    - {x: -1, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: -1}
+    type: 7
+    mesh: {fileID: -7388624053759846169, guid: d03a931e832e26d4d84389c930cda768, type: 3}
+  - vectorRightDefault: {x: -0.5, y: 0.5, z: 0.5}
+    pointColliders:
+    - {x: 0, y: 0}
+    - {x: -1, y: 0}
+    - {x: 0, y: -1}
+    type: 3
+    mesh: {fileID: 4327418568951379963, guid: e096b849332bc3c4593e3fcb2ac66ac9, type: 3}
+  gateDataConfigs:
+  - type: 0
+    mesh: {fileID: -1694460730652336722, guid: 0dc7c6654fc64e741a5dc0f889280a1a, type: 3}
+  - type: 1
+    mesh: {fileID: 3213768737162599124, guid: 97d9adbf650942f4fb1088c96a191e43, type: 3}
+  - type: 2
+    mesh: {fileID: 2849807412762641413, guid: 4438845bb09a5624fa878df13fe1b56c, type: 3}
