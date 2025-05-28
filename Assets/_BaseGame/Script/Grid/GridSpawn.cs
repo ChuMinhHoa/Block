@@ -15,15 +15,15 @@ namespace _BaseGame.Script.Grid
     {
         public int level = 1;
         public MapConfig mapConfig;
-        [SerializeField] private int gridSizeX = 5;
-        [SerializeField] private int gridSizeY = 5;
-        [SerializeField] private float spacing = 1.0f;
+        [SerializeField] public int gridSizeX = 5;
+        [SerializeField] public int gridSizeY = 5;
+        [SerializeField] public float spacing = 1.0f;
         [SerializeField] private Vector3 vectorFirst;
         public ObjPool<Transform> planePool = new();
         public ObjPool<Transform> blockPool = new();
         public ObjPool<UnitBase> unitPool = new();
         public ObjPool<Gate> gatePool = new();
-        
+        public List<Transform> maskDeep = new();
         public bool isEditorMode = true;
         
         [Button]
@@ -46,7 +46,22 @@ namespace _BaseGame.Script.Grid
             ClearPool(unitPool);
             ClearPool(gatePool);
             ClearPool(blockPool);
-
+            var pointTemp = maskDeep[0].localPosition;
+            pointTemp.z = (-gridSizeX+2) / 2f;
+            maskDeep[0].localPosition = pointTemp;
+            pointTemp.z *= -1;
+            maskDeep[1].localPosition = pointTemp;
+            maskDeep[0].localScale = new Vector3(gridSizeY, 1, 20);
+            maskDeep[1].localScale = new Vector3(gridSizeY, 1, 20);
+            
+            pointTemp = maskDeep[2].localPosition;
+            pointTemp.x = (-gridSizeY+2) / 2f;
+            maskDeep[2].localPosition = pointTemp;
+            pointTemp.x *= -1;
+            maskDeep[3].localPosition = pointTemp;
+            maskDeep[2].localScale = new Vector3(gridSizeX, 1, 20);
+            maskDeep[3].localScale = new Vector3(gridSizeX, 1, 20);
+            
             var positionZ = gridSizeX % 2 == 0 ? (int)(gridSizeX / 2f) - 0.5f : (int)(gridSizeX / 2f);
             var positionX = gridSizeY % 2 == 0 ? (int)(gridSizeY / 2f) - 0.5f : (int)(gridSizeY / 2f);
             
@@ -55,23 +70,34 @@ namespace _BaseGame.Script.Grid
                 for (var y = 0; y < gridSizeY; y++)
                 {
                     var position = new Vector3(-positionX + y * spacing, 0, -positionZ + x * spacing);
-                    var plane = planePool.Spawn();
-                    plane.position = position;
                     switch (mapConfig.tiledConfigs[x].tiledConfigs[y].tiledType)
                     {
                         case TiledType.Block:
                             var block = blockPool.Spawn();
-                            block.transform.position = position;
+                            block.transform.localPosition = position;
                             break;
                         case TiledType.Plane:
+                            SpawnPlane(position.x, position.z);
                             break;
                         case TiledType.Gate:
                             var gate = gatePool.Spawn();
-                            gate.transform.position = position;
+                            gate.transform.localPosition = position;
+                            gate.gateType = mapConfig.tiledConfigs[x].tiledConfigs[y].gateType;
+                            gate.colorType = mapConfig.tiledConfigs[x].tiledConfigs[y].colorType;
+                            gate.checkType = mapConfig.tiledConfigs[x].tiledConfigs[y].checkType;
+                            gate.transform.eulerAngles = new Vector3(0, mapConfig.tiledConfigs[x].tiledConfigs[y].rotateY, 0);
+                            gate.InitData();
                             break;
                         case TiledType.Unit:
+                            SpawnPlane(position.x, position.z);
                             var unit = unitPool.Spawn();
-                            unit.transform.position = position;
+                            unit.ResetUnit();
+                            unit.transform.localPosition = position;
+                            unit.unitType = mapConfig.tiledConfigs[x].tiledConfigs[y].unitType;
+                            unit.moveType = mapConfig.tiledConfigs[x].tiledConfigs[y].moveType;
+                            unit.colorType = mapConfig.tiledConfigs[x].tiledConfigs[y].colorType;
+                            unit.transform.eulerAngles = new Vector3(0, mapConfig.tiledConfigs[x].tiledConfigs[y].rotateY, 0);
+                            unit.InitData();
                             break;
                         default:
                             // Handle other types if necessary
@@ -83,11 +109,27 @@ namespace _BaseGame.Script.Grid
             }
         }
         
+        [Button]
+        private void DestroyMap()
+        {
+            ClearPool(planePool);
+            ClearPool(unitPool);
+            ClearPool(gatePool);
+            ClearPool(blockPool);
+        }
+
+        private void SpawnPlane(float x, float z)
+        {
+            var position = new Vector3(x, 0, z);
+            var plane = planePool.Spawn();
+            plane.localPosition = position;
+        }
+
         private void ClearPool<T>(ObjPool<T> objPool) where T : Component
         {
             if (isEditorMode)
             {
-                unitPool.Clear();
+                objPool.Clear();
                 for (var i = objPool.trsParents.childCount-1; i >= 0; i--)
                 {
                     var child = objPool.trsParents.GetChild(i);
@@ -97,102 +139,12 @@ namespace _BaseGame.Script.Grid
             }
             else
             {
-                for (var i = objPool.ListActive.Count; i >=0; i--)
-                {
-                    objPool.Despawn(objPool.ListActive[i]);
-                }
+                    objPool.DespawnAll();
             }
         }
 
-        [Button]
-        private void SaveBackMapData()
-        {
-            EditorUtility.SetDirty(LevelDataGlobalConfig.Instance);
-            AssetDatabase.SaveAssets();
-        }
         
-        [BoxGroup("Matrix")]
-        [TableMatrix(HorizontalTitle = "Grid Elements", SquareCells = true, DrawElementMethod = "DrawColoredEnumElement")]
-        [ShowInInspector]public TiledOnMatrix[,] GridElements;
 
-        [ShowInInspector] public List<GameObject> objShows;
-
-        private TiledOnMatrix DrawColoredEnumElement(Rect rect, TiledOnMatrix value)
-        {
-            if (Event.current.type == EventType.MouseDown && rect.Contains(Event.current.mousePosition))
-            {
-                int valueIndex = (int)value.tiledConfig.tiledType;
-                valueIndex++;
-                if (valueIndex>= Enum.GetValues(typeof(TiledType)).Length)
-                {
-                    valueIndex = 0;
-                }
-                
-                value.objShow = objShows[valueIndex];
-                value.tiledConfig.tiledType = (TiledType)valueIndex;
-                GUI.changed = true;
-                Event.current.Use();
-            } 
-        
-            //Draw the preview of the objShow GameObject
-            if (value.objShow != null)
-            {
-                Texture2D previewTexture = AssetPreview.GetAssetPreview(value.objShow);
-                if (previewTexture != null)
-                {
-                    GUI.DrawTexture(rect, previewTexture, ScaleMode.ScaleToFit);
-                }
-            }
-            else
-            {
-                // Draw a placeholder if objShow is null
-                EditorGUI.DrawRect(rect, Color.gray);
-            }
-            return value;
-        }
-        
-        [BoxGroup("Matrix")]
-        [Button]
-        public void DrawMatrix()
-        {
-            GridElements = new TiledOnMatrix[gridSizeY, gridSizeX];
-            for (var i = 0; i < gridSizeX; i++)
-            {
-                for (var j = 0; j < gridSizeY; j++)
-                {
-                    Debug.Log($"{i},{j}");
-                    GridElements[j, i] = new TiledOnMatrix();
-                    GridElements[j, i].tiledConfig = new TiledConfig();
-                    GridElements[j, i].tiledConfig.tiledType = TiledType.Plane;
-                    var objIndex= (int)mapConfig.tiledConfigs[i].tiledConfigs[j].tiledType;
-                    GridElements[j, i].objShow = objShows[objIndex];
-                }
-            }
-            ReverseMatrixHorizontally();
-            ReverseMatrixVertically();
-        }
-        
-        public void ReverseMatrixHorizontally()
-        {
-            for (int i = 0; i < gridSizeY; i++)
-            {
-                for (int j = 0; j < gridSizeX / 2; j++)
-                {
-                    (GridElements[i, j], GridElements[i, gridSizeX - 1 - j]) = (GridElements[i, gridSizeX - 1 - j], GridElements[i, j]);
-                }
-            }
-        }
-        
-        public void ReverseMatrixVertically()
-        {
-            for (int i = 0; i < gridSizeY / 2; i++)
-            {
-                for (int j = 0; j < gridSizeX; j++)
-                {
-                    (GridElements[i, j], GridElements[gridSizeY - 1 - i, j]) = (GridElements[gridSizeY - 1 - i, j], GridElements[i, j]);
-                }
-            }
-        }
     }
 
     [System.Serializable]

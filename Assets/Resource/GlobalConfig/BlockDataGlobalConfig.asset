@@ -17,6 +17,23 @@ MonoBehaviour:
     material: {fileID: 2100000, guid: fc240b0fa3690b7499caa8b3c39dfcd5, type: 2}
   - colorType: 0
     material: {fileID: 2100000, guid: 1d00e8ef2a69486478d87225dd361cb4, type: 2}
+  - colorType: 1
+    material: {fileID: 2100000, guid: 6e1d443236c66f948b247e5d2efe75e8, type: 2}
+  - colorType: 5
+    material: {fileID: 2100000, guid: 701f62923b2dd30488f5f6512f207c77, type: 2}
+  - colorType: 3
+    material: {fileID: 2100000, guid: 489268bec3bddaf409df7b8e59e3f5b8, type: 2}
+  gateMData:
+  - colorType: 2
+    material: {fileID: 2100000, guid: d248fa94ef018454f919e42b490a00a8, type: 2}
+  - colorType: 0
+    material: {fileID: 2100000, guid: 4eb2feb9c160b19439eb3fd94682647e, type: 2}
+  - colorType: 1
+    material: {fileID: 2100000, guid: 8c8898cc26ec2624e9d24a8eea644ae3, type: 2}
+  - colorType: 3
+    material: {fileID: 2100000, guid: ac9d2e0affa56d44496c8c056d61b879, type: 2}
+  - colorType: 5
+    material: {fileID: 2100000, guid: 387d02e36f513a544865f213efbb1339, type: 2}
   blockDataConfig:
   - vectorRightDefault: {x: 0, y: 0.5, z: 0.5}
     pointColliders:
@@ -83,3 +100,23 @@ MonoBehaviour:
     mesh: {fileID: 3213768737162599124, guid: 97d9adbf650942f4fb1088c96a191e43, type: 3}
   - type: 2
     mesh: {fileID: 2849807412762641413, guid: 4438845bb09a5624fa878df13fe1b56c, type: 3}
+  moveObjData:
+  - type: 0
+    mesh: {fileID: 568036627037906997, guid: 472e273ae264af143864bd405106f3e2, type: 3}
+  - type: 1
+    mesh: {fileID: -3529578986063779419, guid: 9c85259185a5a044a82019f95fb94a24, type: 3}
+  - type: 2
+    mesh: {fileID: 2668684611341049033, guid: 724b8b105bb137d45ba0c58dbc89a166, type: 3}
+  colorData:
+  - colorType: 0
+    color: {r: 0.9150943, g: 0.11654504, b: 0.11654504, a: 1}
+  - colorType: 1
+    color: {r: 0.17181383, g: 0.9339623, b: 0.20701768, a: 1}
+  - colorType: 2
+    color: {r: 0.12259703, g: 0.29835826, b: 0.8962264, a: 1}
+  - colorType: 3
+    color: {r: 0.8867924, g: 0.8567214, b: 0.16313636, a: 1}
+  - colorType: 4
+    color: {r: 0.7868705, g: 0.1782218, b: 0.8396226, a: 1}
+  - colorType: 5
+    color: {r: 0.8679245, g: 0.43111458, b: 0.20060521, a: 1}

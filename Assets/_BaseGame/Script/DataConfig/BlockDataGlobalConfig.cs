@@ -10,8 +10,11 @@ namespace _BaseGame.Script.DataConfig
     public class BlockDataGlobalConfig : GlobalConfig<BlockDataGlobalConfig>
     {
         public List<MaterialData> materialData = new();
+        public List<MaterialData> gateMData = new();
         public List<BlockDataConfig> blockDataConfig = new();
         public List<GateDataConfig> gateDataConfigs = new();
+        public List<MoveObjData> moveObjData = new();
+        public List<ColorConfig> colorData = new();
     }
 
     [System.Serializable]
@@ -19,6 +22,13 @@ namespace _BaseGame.Script.DataConfig
     {
         public ColorType colorType;    
         public Material material;
+    }
+    
+    [System.Serializable]
+    public class ColorConfig
+    {
+        public ColorType colorType;    
+        public Color color;
     }
     
     [System.Serializable]
@@ -36,12 +46,26 @@ namespace _BaseGame.Script.DataConfig
         public GateType type;
         public Mesh mesh;
     }
+    
+    [System.Serializable]
+    public class MoveObjData
+    {
+        public MoveTypeObj type;
+        public Mesh mesh;
+    }
 
     public enum GateType
     {
         Gate1,
         Gate2,
         Gate3,
+    }
+    
+    public enum MoveTypeObj
+    {
+        M1,
+        M2,
+        M3
     }
 
     public enum UnitType

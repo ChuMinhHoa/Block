@@ -34,8 +34,13 @@ namespace _BaseGame.Script.DataConfig
         [ShowIf("tiledType", TiledType.Unit)]
         public UnitType unitType;
         
+        [ShowIf("tiledType", TiledType.Unit)]
+        public MoveType moveType;
+        
         [ShowIf("tiledType", TiledType.Gate)]
         public GateType gateType;
+        [ShowIf("tiledType", TiledType.Gate)]
+        public CheckType checkType;
         
         [ShowIf("@tiledType != TiledType.Block && tiledType != TiledType.Plane")]
         public ColorType colorType;

@@ -16,34 +16,2441 @@ MonoBehaviour:
   - level: 1
     tiledConfigs:
     - tiledConfigs:
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
       - tiledType: 2
         unitType: 0
+        moveType: 0
         gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 6
+        moveType: 1
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 6
+        moveType: 1
+        gateType: 0
+        checkType: 0
+        colorType: 2
+        rotateY: 180
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 1
+        colorType: 2
+        rotateY: 90
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
         colorType: 0
         rotateY: 0
       - tiledType: 4
         unitType: 0
+        moveType: 2
         gateType: 0
-        colorType: 0
+        checkType: 0
+        colorType: 2
         rotateY: 0
-      - tiledType: 2
+      - tiledType: 1
         unitType: 0
+        moveType: 0
         gateType: 0
+        checkType: 0
         colorType: 0
         rotateY: 0
     - tiledConfigs:
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 0
+        colorType: 2
+        rotateY: 180
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+  - level: 2
+    tiledConfigs:
+    - tiledConfigs:
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 0
+        colorType: 2
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 0
+        colorType: 2
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        moveType: 1
+        gateType: 0
+        checkType: 0
+        colorType: 2
+        rotateY: 180
       - tiledType: 2
         unitType: 0
+        moveType: 0
         gateType: 0
+        checkType: 0
         colorType: 0
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        moveType: 0
         gateType: 0
+        checkType: 0
         colorType: 0
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        moveType: 0
         gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        moveType: 1
+        gateType: 0
+        checkType: 0
+        colorType: 2
+        rotateY: 90
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 1
+        colorType: 1
+        rotateY: 90
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        moveType: 2
+        gateType: 0
+        checkType: 0
+        colorType: 1
+        rotateY: 180
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        moveType: 2
+        gateType: 0
+        checkType: 0
+        colorType: 1
+        rotateY: 90
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 1
+        colorType: 1
+        rotateY: 270
+    - tiledConfigs:
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 1
+        colorType: 3
+        rotateY: 90
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        moveType: 2
+        gateType: 0
+        checkType: 0
+        colorType: 3
+        rotateY: 270
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        moveType: 2
+        gateType: 0
+        checkType: 0
+        colorType: 3
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 1
+        colorType: 3
+        rotateY: 270
+    - tiledConfigs:
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        moveType: 1
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 270
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        moveType: 1
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 0
+        colorType: 0
+        rotateY: 180
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 0
+        colorType: 0
+        rotateY: 180
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+  - level: 2
+    tiledConfigs: []
+  - level: 2
+    tiledConfigs:
+    - tiledConfigs:
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 0
+        colorType: 2
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 0
+        colorType: 2
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        moveType: 1
+        gateType: 0
+        checkType: 0
+        colorType: 2
+        rotateY: 180
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        moveType: 1
+        gateType: 0
+        checkType: 0
+        colorType: 2
+        rotateY: 90
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 1
+        colorType: 1
+        rotateY: 90
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        moveType: 2
+        gateType: 0
+        checkType: 0
+        colorType: 1
+        rotateY: 180
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        moveType: 2
+        gateType: 0
+        checkType: 0
+        colorType: 1
+        rotateY: 90
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 1
+        colorType: 1
+        rotateY: 270
+    - tiledConfigs:
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 1
+        colorType: 3
+        rotateY: 90
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        moveType: 2
+        gateType: 0
+        checkType: 0
+        colorType: 3
+        rotateY: 270
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        moveType: 2
+        gateType: 0
+        checkType: 0
+        colorType: 3
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 1
+        colorType: 3
+        rotateY: 270
+    - tiledConfigs:
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        moveType: 1
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 270
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        moveType: 1
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 0
+        colorType: 0
+        rotateY: 180
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 0
+        colorType: 0
+        rotateY: 180
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+  - level: 2
+    tiledConfigs:
+    - tiledConfigs:
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 0
+        colorType: 2
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 0
+        colorType: 2
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        moveType: 1
+        gateType: 0
+        checkType: 0
+        colorType: 2
+        rotateY: 180
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        moveType: 1
+        gateType: 0
+        checkType: 0
+        colorType: 2
+        rotateY: 90
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 1
+        colorType: 1
+        rotateY: 90
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        moveType: 2
+        gateType: 0
+        checkType: 0
+        colorType: 1
+        rotateY: 180
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        moveType: 2
+        gateType: 0
+        checkType: 0
+        colorType: 1
+        rotateY: 90
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 1
+        colorType: 1
+        rotateY: 270
+    - tiledConfigs:
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 1
+        colorType: 3
+        rotateY: 90
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        moveType: 2
+        gateType: 0
+        checkType: 0
+        colorType: 3
+        rotateY: 270
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        moveType: 2
+        gateType: 0
+        checkType: 0
+        colorType: 3
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 1
+        colorType: 3
+        rotateY: 270
+    - tiledConfigs:
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        moveType: 1
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 270
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        moveType: 1
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 0
+        colorType: 0
+        rotateY: 180
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 3
+        unitType: 0
+        moveType: 0
+        gateType: 1
+        checkType: 0
+        colorType: 0
+        rotateY: 180
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        moveType: 0
+        gateType: 0
+        checkType: 0
         colorType: 0
         rotateY: 0

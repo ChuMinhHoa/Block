@@ -1,14 +1,57 @@
 using System;
 using System.Collections.Generic;
+using _BaseGame.Script.DataConfig;
 using EPOOutline;
 using LitMotion;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace _BaseGame.Script.Unit
 {
     public class UnitBase : MonoBehaviour
     {
+        [BoxGroup("Unit Settings")]
         public ColorType colorType;
+        [BoxGroup("Unit Settings")]
+        public UnitType unitType;
+        [BoxGroup("Unit Settings")]
+        public MoveType moveType;
+
+        [BoxGroup("Unit Settings")]
+        [Button]
+        public void InitData()
+        {
+            block.unitType = unitType;
+            block.colorType = colorType;
+            block.moveType = moveType;
+            block.InitData();
+            rb.constraints = RigidbodyConstraints.None;
+            rb.constraints = rb.constraints | RigidbodyConstraints.FreezeRotation;
+            rb.constraints = rb.constraints | RigidbodyConstraints.FreezePositionY;
+            switch (moveType)
+            {
+                case MoveType.Horizontal:
+                    rb.constraints = rb.constraints | RigidbodyConstraints.FreezePositionZ;
+                    break;
+                case MoveType.Vertical:
+                    rb.constraints = rb.constraints | RigidbodyConstraints.FreezePositionX;
+                    break;
+                case MoveType.None:
+                default:
+                    break;
+            }
+        }
+
+        public void ResetUnit()
+        {
+            if (motionHandle.IsPlaying())
+                motionHandle.TryCancel();
+            status = Status.None;
+            outline.FrontParameters.DilateShift = 0;
+            rb.isKinematic = true;
+        }
+
+
         public Block block;
         public Outlinable outline;
         private Camera mainCamera;
@@ -16,7 +59,7 @@ namespace _BaseGame.Script.Unit
         public float speed = 5f;
         public float distanceMin;
         public float timeSmooth = 0.1f;
-        public MoveType moveType;
+       
 
         private Vector3 lastPoint;
         public Status status;
@@ -41,21 +84,22 @@ namespace _BaseGame.Script.Unit
             var distance = Vector3.Distance(transform.position, targetPosition);
             if (distance > distanceMin)
             {
-                var direction = (targetPosition - transform.position).normalized;
+                var direction = (targetPosition - transform.position);
                 var targetVelocity = direction * speed;
-                rb.velocity = Vector3.Lerp(rb.velocity, targetVelocity, Time.deltaTime * timeSmooth);
                 switch (moveType)
                 {
                     case MoveType.Horizontal:
-                        rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, 0);
+                        targetVelocity.z = 0;
                         break;
                     case MoveType.Vertical:
-                        rb.velocity = new Vector3(0, rb.velocity.y, rb.velocity.z);
+                        targetVelocity.x = 0;
                         break;
                     case MoveType.None:
                     default:
                         break;
                 }
+                //rb.velocity = Vector3.Lerp(rb.velocity, targetVelocity, Time.deltaTime * timeSmooth);
+                rb.velocity = targetVelocity;
             }
             else
             {
@@ -75,7 +119,7 @@ namespace _BaseGame.Script.Unit
             outline.FrontParameters.DilateShift = 0;
             rb.velocity = Vector3.zero;
             rb.isKinematic = true;
-            Debug.DrawLine(transform.position, transform.position - transform.up * lengthCast, Color.red);
+            //Debug.DrawLine(transform.position, transform.position - transform.up * lengthCast, Color.red);
             if (!Physics.Linecast(transform.position, transform.position - transform.up * lengthCast, out var hit,
                     mask)) return;
             var target = hit.transform.position;
@@ -96,7 +140,7 @@ namespace _BaseGame.Script.Unit
 
         private void CheckOnGate()
         {
-            for (int i = 0; i < myColliders.Count; i++)
+            for (var i = 0; i < myColliders.Count; i++)
             {
                 // Center of the sphere
                 var results = new Collider[10];
@@ -138,7 +182,7 @@ namespace _BaseGame.Script.Unit
                 default:
                     break;
             }
-            LMotion.Create(transform.position, transform.position + dir * 4f, 0.3f).Bind(x => transform.position = x)
+            motionHandle = LMotion.Create(transform.position, transform.position + dir * 4f, 0.5f).Bind(x => transform.position = x)
                 .AddTo(this);
             gate.PlayEffect();
         }
@@ -153,7 +197,6 @@ namespace _BaseGame.Script.Unit
 
         public bool CheckVector(Vector3 vectorEnd, CheckType checkType, Gate gateCheck)
         {
-            //Debug.Log("Gate: "+gateCheck.gameObject.name);
             CreatePointBlocks();
             for (var i = 0; i < pointBlocks.Count; i++)
             {
@@ -164,11 +207,9 @@ namespace _BaseGame.Script.Unit
                 
                 var point = pointBlocks[i];
                 var pointEnd = dir;
-                //Debug.Log($"Check point {i} : {point} to {pointEnd}");
                 Debug.DrawLine(point, pointEnd, Color.red, 10f);
                 if (Physics.Linecast(point, pointEnd, out var hitInfo))
                 {
-                    //Debug.Log($"Hit: {hitInfo.collider.gameObject.name}");
                     if (!myColliders.Contains(hitInfo.collider) && !gateCheck.ContainsCollider(hitInfo.collider))
                     {
                         return false;

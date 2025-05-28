@@ -12,7 +12,7 @@ namespace _BaseGame.Script.ETC
         public T prefab;
 
         [ShowInInspector]public Queue<T> tActive = new();
-        public Queue<T> tInactive = new();
+        [ShowInInspector]public Queue<T> tInactive = new();
 
         [ShowInInspector] public List<T> ListActive => new(tActive);
 
@@ -47,6 +47,16 @@ namespace _BaseGame.Script.ETC
             else
             {
                 Debug.LogWarning("Object not found in active pool.");
+            }
+        }
+        
+        public void DespawnAll()
+        {
+            while (tActive.Count > 0)
+            {
+                var obj = tActive.Dequeue();
+                tInactive.Enqueue(obj);
+                obj.gameObject.SetActive(false);
             }
         }
 
