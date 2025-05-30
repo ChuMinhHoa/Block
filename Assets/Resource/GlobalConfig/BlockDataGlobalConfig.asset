@@ -120,3 +120,36 @@ MonoBehaviour:
     color: {r: 0.7868705, g: 0.1782218, b: 0.8396226, a: 1}
   - colorType: 5
     color: {r: 0.8679245, g: 0.43111458, b: 0.20060521, a: 1}
+  chainConfigs:
+  - unitType: 0
+    mesh: {fileID: 250558775257569371, guid: 0d6ae5634441b714b8fa864643ebf882, type: 3}
+    rotate: {x: -0, y: 180, z: 0}
+    position: {x: 0, y: 0.7, z: 0}
+  - unitType: 1
+    mesh: {fileID: 1242482767095752624, guid: 8eea2fea3f2195043892f83e3639f8ef, type: 3}
+    rotate: {x: -0, y: 0, z: 0}
+    position: {x: -0.5, y: 0.7, z: 0}
+  - unitType: 2
+    mesh: {fileID: 5036400300014887410, guid: 4b956a47e8656e949a3984c6cadbd3ef, type: 3}
+    rotate: {x: -0, y: 180, z: 0}
+    position: {x: 0, y: 0.7, z: -1}
+  - unitType: 3
+    mesh: {fileID: 204051569740168149, guid: 7b327cd83532a874caaf0e24d69a3e92, type: 3}
+    rotate: {x: -0, y: 180, z: 0}
+    position: {x: 0, y: 0.7, z: -0.5}
+  - unitType: 4
+    mesh: {fileID: 513057387917455801, guid: 53a40ca890886774da91441259ce30a3, type: 3}
+    rotate: {x: -0, y: 0, z: 0}
+    position: {x: 0, y: 0.7, z: 0}
+  - unitType: 5
+    mesh: {fileID: 432058425810974854, guid: 49a3d8830cf2a264d9195fe69f539039, type: 3}
+    rotate: {x: -0, y: 180, z: 0}
+    position: {x: 0, y: 0.7, z: 0}
+  - unitType: 6
+    mesh: {fileID: 432058425810974854, guid: 49a3d8830cf2a264d9195fe69f539039, type: 3}
+    rotate: {x: -0, y: 0, z: 0}
+    position: {x: -0.5, y: 0.7, z: -0.5}
+  - unitType: 7
+    mesh: {fileID: -8785810253141381039, guid: dbbff8380f2883344bee662ae310374a, type: 3}
+    rotate: {x: -0, y: 0, z: 0}
+    position: {x: 0, y: 0.7, z: 0}

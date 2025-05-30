@@ -5,26 +5,49 @@ using EPOOutline;
 using LitMotion;
 using Sirenix.OdinInspector;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace _BaseGame.Script.Unit
 {
     public class UnitBase : MonoBehaviour
     {
+        [FormerlySerializedAs("block")] [BoxGroup("Unit Settings")]
+        public BlockInit blockInit;
         [BoxGroup("Unit Settings")]
         public ColorType colorType;
         [BoxGroup("Unit Settings")]
         public UnitType unitType;
         [BoxGroup("Unit Settings")]
         public MoveType moveType;
+        
+        [BoxGroup("Unit Settings")]
+        public ArrowType arrowType;
+        [BoxGroup("Unit Settings")] public Vector3 arrowPosition;
+        
+        [BoxGroup("Unit Settings")] public ChainInit chainInit;
 
         [BoxGroup("Unit Settings")]
         [Button]
-        public void InitData()
+        private void InitData()
         {
-            block.unitType = unitType;
-            block.colorType = colorType;
-            block.moveType = moveType;
-            block.InitData();
+            blockInit.Setting(unitType, moveType, colorType, arrowType, arrowPosition);
+            blockInit.InitData();
+            chainInit.InitData(unitType, true);
+        }
+
+        public void InitData(TiledConfig tiledConfig)
+        {
+            unitType = tiledConfig.unitType;
+            moveType = tiledConfig.moveType;
+            colorType = tiledConfig.colorType;
+            transform.eulerAngles = new Vector3(0, tiledConfig.rotateY, 0);
+            arrowType = tiledConfig.arrowType;
+            arrowPosition = tiledConfig.arrowPosition;
+            
+            chainInit.InitData(unitType, tiledConfig.blockSpecialType == BlockSpecialType.Chain);
+            
+            blockInit.Setting(unitType, moveType, colorType, arrowType, arrowPosition);
+            blockInit.InitData();
             rb.constraints = RigidbodyConstraints.None;
             rb.constraints = rb.constraints | RigidbodyConstraints.FreezeRotation;
             rb.constraints = rb.constraints | RigidbodyConstraints.FreezePositionY;
@@ -52,13 +75,12 @@ namespace _BaseGame.Script.Unit
         }
 
 
-        public Block block;
+        
         public Outlinable outline;
         private Camera mainCamera;
         public Rigidbody rb;
         public float speed = 5f;
         public float distanceMin;
-        public float timeSmooth = 0.1f;
        
 
         private Vector3 lastPoint;
@@ -75,10 +97,18 @@ namespace _BaseGame.Script.Unit
             status = Status.Drop;
             GameController.Instance.AddUnitBase(this);
         }
+        
+        private bool IsCanMove()
+        {
+            if (chainInit.isChain) return false;
+            return true;
+        }
 
         public void MovePosition(Vector3 pointCast)
         {
-            Vector3 targetPosition = pointCast + vectorDir;
+            if (!IsCanMove())
+                return;
+            var targetPosition = pointCast + vectorDir;
             targetPosition.y = transform.position.y;
             
             var distance = Vector3.Distance(transform.position, targetPosition);
@@ -168,7 +198,7 @@ namespace _BaseGame.Script.Unit
                 myColliders[i].enabled = false;
             }
 
-            block.ResolvedMode();
+            blockInit.ResolvedMode();
             var pointGate = gate.transform.position;
             var dir = pointGate - transform.position;
             switch (gate.checkType)
@@ -233,6 +263,23 @@ namespace _BaseGame.Script.Unit
         public void SetPointDefault(Vector3 hitPlanePoint)
         {
             vectorDir = transform.position - hitPlanePoint;
+        }
+
+        public void Settings(Vector3 unitPosition, UnitType unitType1, MoveType moveType1, ArrowType arrowType1,
+            ColorType colorUnitType, Vector3 vectorUnitEuler, Vector3 vectorArrow)
+        {
+            transform.localPosition = unitPosition;
+            unitType = unitType1;
+            moveType = moveType1;
+            arrowType = arrowType1;
+            colorType = colorUnitType;
+            transform.eulerAngles = vectorUnitEuler;
+            arrowPosition = vectorArrow;
+        }
+
+        public Vector3 GetArrowPosition()
+        {
+            return blockInit.GetArrowPosition();
         }
     }
     

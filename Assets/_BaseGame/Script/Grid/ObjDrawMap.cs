@@ -25,31 +25,24 @@ namespace _BaseGame.Script.Grid
                 objShows[i].SetActive(false);
             }
             tiledType = type;
+            PointOnGrid.SetPoint(x, y);
             if (tiledType == TiledType.None)
                 return;
             currentObjShow = objShows[((int)type - 1)];
             currentObjShow.SetActive(true);
-            PointOnGrid.SetPoint(x, y);
         }
 
         public void InitUnit(TiledConfig tiledConfig)
         {
             var unitBase = currentObjShow.GetComponent<UnitBase>();
-            unitBase.unitType = tiledConfig.unitType;
-            unitBase.moveType = tiledConfig.moveType;
-            unitBase.colorType = tiledConfig.colorType;
-            unitBase.transform.eulerAngles = new Vector3(0, tiledConfig.rotateY, 0);
-            unitBase.InitData();
+          
+            unitBase.InitData(tiledConfig);
         }
 
         public void InitGate(TiledConfig tiledConfig)
         {
             var gate = currentObjShow.GetComponent<Gate>();
-            gate.gateType = tiledConfig.gateType;
-            gate.colorType = tiledConfig.colorType;
-            gate.checkType = tiledConfig.checkType;
-            gate.transform.eulerAngles = new Vector3(0, tiledConfig.rotateY, 0);
-            gate.InitData();
+            gate.InitData(tiledConfig);
         }
 
         [Button]
@@ -64,9 +57,32 @@ namespace _BaseGame.Script.Grid
                 return;
             currentObjShow = objShows[((int)tiledType - 1)];
             currentObjShow.SetActive(true);
-            //PointOnGrid.SetPoint((int)transform.position.x, (int)transform.position.y);
+            
+            switch (tiledType)  
+            {
+                case TiledType.Unit:
+                    var unitBase = currentObjShow.GetComponent<UnitBase>();
+                    unitBase.ResetUnit();
+                    unitBase.InitData(config);
+                    break;
+                case TiledType.Gate:
+                    var gate = currentObjShow.GetComponent<Gate>();
+                    gate.InitData(config);
+                    break;
+                case TiledType.Block:
+                    Debug.Log("Block Init");
+                    var wall = currentObjShow.GetComponent<Wall>();
+                    wall.InitData(config);
+                    break;
+            }
+        }
 
-           
+        public TiledConfig config;
+
+        public void InitBlock(TiledConfig tiledConfig)
+        {
+            var wall = currentObjShow.GetComponent<Wall>();
+            wall.InitData(tiledConfig);
         }
     }
 }

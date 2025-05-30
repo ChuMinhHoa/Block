@@ -6,6 +6,7 @@ using _BaseGame.Script.Unit;
 using Sirenix.OdinInspector;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Serialization;
 using Object = UnityEngine.Object;
 
 namespace _BaseGame.Script.Grid
@@ -20,7 +21,7 @@ namespace _BaseGame.Script.Grid
         [SerializeField] public float spacing = 1.0f;
         [SerializeField] private Vector3 vectorFirst;
         public ObjPool<Transform> planePool = new();
-        public ObjPool<Transform> blockPool = new();
+        public ObjPool<Wall> wallPool = new();
         public ObjPool<UnitBase> unitPool = new();
         public ObjPool<Gate> gatePool = new();
         public List<Transform> maskDeep = new();
@@ -45,7 +46,7 @@ namespace _BaseGame.Script.Grid
             ClearPool(planePool);
             ClearPool(unitPool);
             ClearPool(gatePool);
-            ClearPool(blockPool);
+            ClearPool(wallPool);
             var pointTemp = maskDeep[0].localPosition;
             pointTemp.z = (-gridSizeX+2) / 2f;
             maskDeep[0].localPosition = pointTemp;
@@ -70,34 +71,30 @@ namespace _BaseGame.Script.Grid
                 for (var y = 0; y < gridSizeY; y++)
                 {
                     var position = new Vector3(-positionX + y * spacing, 0, -positionZ + x * spacing);
-                    switch (mapConfig.tiledConfigs[x].tiledConfigs[y].tiledType)
+                    var tiledConfig = mapConfig.tiledConfigs[x].tiledConfigs[y];
+                   
+                    switch (tiledConfig.tiledType)
                     {
                         case TiledType.Block:
-                            var block = blockPool.Spawn();
-                            block.transform.localPosition = position;
+                            var wall = wallPool.Spawn();
+                            wall.transform.localPosition = position;
+                            wall.InitData(tiledConfig);
                             break;
                         case TiledType.Plane:
                             SpawnPlane(position.x, position.z);
                             break;
                         case TiledType.Gate:
                             var gate = gatePool.Spawn();
+                           
                             gate.transform.localPosition = position;
-                            gate.gateType = mapConfig.tiledConfigs[x].tiledConfigs[y].gateType;
-                            gate.colorType = mapConfig.tiledConfigs[x].tiledConfigs[y].colorType;
-                            gate.checkType = mapConfig.tiledConfigs[x].tiledConfigs[y].checkType;
-                            gate.transform.eulerAngles = new Vector3(0, mapConfig.tiledConfigs[x].tiledConfigs[y].rotateY, 0);
-                            gate.InitData();
+                            gate.InitData(tiledConfig);
                             break;
                         case TiledType.Unit:
                             SpawnPlane(position.x, position.z);
                             var unit = unitPool.Spawn();
                             unit.ResetUnit();
                             unit.transform.localPosition = position;
-                            unit.unitType = mapConfig.tiledConfigs[x].tiledConfigs[y].unitType;
-                            unit.moveType = mapConfig.tiledConfigs[x].tiledConfigs[y].moveType;
-                            unit.colorType = mapConfig.tiledConfigs[x].tiledConfigs[y].colorType;
-                            unit.transform.eulerAngles = new Vector3(0, mapConfig.tiledConfigs[x].tiledConfigs[y].rotateY, 0);
-                            unit.InitData();
+                            unit.InitData(tiledConfig);
                             break;
                         default:
                             // Handle other types if necessary
@@ -115,7 +112,7 @@ namespace _BaseGame.Script.Grid
             ClearPool(planePool);
             ClearPool(unitPool);
             ClearPool(gatePool);
-            ClearPool(blockPool);
+            ClearPool(wallPool);
         }
 
         private void SpawnPlane(float x, float z)

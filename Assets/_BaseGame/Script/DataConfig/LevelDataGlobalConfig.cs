@@ -20,6 +20,7 @@ namespace _BaseGame.Script.DataConfig
         public int level;
         public List<TiledConfigRow> tiledConfigs = new();
     }
+    
     [System.Serializable]
     public class TiledConfigRow
     {
@@ -32,20 +33,39 @@ namespace _BaseGame.Script.DataConfig
         public TiledType tiledType;
         
         [ShowIf("tiledType", TiledType.Unit)]
-        public UnitType unitType;
-        
+        public UnitType unitType; 
+        [ShowIf("tiledType", TiledType.Unit)]
+        public ArrowType arrowType;
+        [ShowIf("tiledType", TiledType.Unit)]
+        public Vector3 arrowPosition;
         [ShowIf("tiledType", TiledType.Unit)]
         public MoveType moveType;
+        [ShowIf("tiledType", TiledType.Unit)] 
+        public BlockSpecialType blockSpecialType;
         
         [ShowIf("tiledType", TiledType.Gate)]
         public GateType gateType;
         [ShowIf("tiledType", TiledType.Gate)]
         public CheckType checkType;
         
-        [ShowIf("@tiledType != TiledType.Block && tiledType != TiledType.Plane")]
+        [ShowIf("@tiledType == TiledType.Unit || tiledType == TiledType.Gate")]
         public ColorType colorType;
+        
+        [ShowIf("tiledType", TiledType.Block)]
+        public WallType wallType;
+        [ShowIf("tiledType", TiledType.Block)]
+        public Vector3 scale = Vector3.one;
 
         public float rotateY;
+      
+    }
+    
+    public enum BlockSpecialType
+    {
+        None,
+        Chain,
+        Star,
+        Free
     }
     
     public enum TiledType{

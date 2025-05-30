@@ -9,16 +9,26 @@ namespace _BaseGame.Script.DataConfig
     [GlobalConfig("Resources/GlobalConfig/BlockDataGlobalConfig")]
     public class BlockDataGlobalConfig : GlobalConfig<BlockDataGlobalConfig>
     {
-        public List<MaterialData> materialData = new();
-        public List<MaterialData> gateMData = new();
+        public List<BlockMaterialConfig> materialData = new();
+        public List<BlockMaterialConfig> gateMData = new();
         public List<BlockDataConfig> blockDataConfig = new();
-        public List<GateDataConfig> gateDataConfigs = new();
-        public List<MoveObjData> moveObjData = new();
+        public List<GateMeshConfig> gateDataConfigs = new();
+        public List<ArrowMeshConfig> moveObjData = new();
         public List<ColorConfig> colorData = new();
+        public List<ChainConfig> chainConfigs = new();
+    }
+    
+    [System.Serializable]
+    public class ChainConfig
+    {
+        public UnitType unitType;
+        public Mesh mesh;
+        public Vector3 rotate;
+        public Vector3 position;
     }
 
     [System.Serializable]
-    public class MaterialData
+    public class BlockMaterialConfig
     {
         public ColorType colorType;    
         public Material material;
@@ -41,16 +51,16 @@ namespace _BaseGame.Script.DataConfig
     }
     
     [System.Serializable]
-    public class GateDataConfig
+    public class GateMeshConfig
     {
         public GateType type;
         public Mesh mesh;
     }
     
     [System.Serializable]
-    public class MoveObjData
+    public class ArrowMeshConfig
     {
-        public MoveTypeObj type;
+        public ArrowType type;
         public Mesh mesh;
     }
 
@@ -61,7 +71,7 @@ namespace _BaseGame.Script.DataConfig
         Gate3,
     }
     
-    public enum MoveTypeObj
+    public enum ArrowType
     {
         M1,
         M2,

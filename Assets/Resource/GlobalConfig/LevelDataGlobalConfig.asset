@@ -18,2439 +18,1723 @@ MonoBehaviour:
     - tiledConfigs:
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
+        wallType: 6
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 270
       - tiledType: 0
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 3
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 1
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
+        wallType: 1
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 270
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
+        wallType: 1
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 270
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
+        wallType: 6
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 180
     - tiledConfigs:
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
+        wallType: 1
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 180
     - tiledConfigs:
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
+        wallType: 1
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 180
     - tiledConfigs:
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 4
         unitType: 6
+        arrowType: 1
+        arrowPosition: {x: -0.5, y: 0, z: 0}
         moveType: 1
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 4
         unitType: 6
+        arrowType: 1
+        arrowPosition: {x: -0.5, y: 0, z: -1}
         moveType: 1
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 2
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 180
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
+        wallType: 1
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 180
     - tiledConfigs:
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 1
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
+        wallType: 1
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 180
     - tiledConfigs:
       - tiledType: 3
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 1
         colorType: 2
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 90
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 4
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 2
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 2
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
+        wallType: 1
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 180
     - tiledConfigs:
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 6
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
+        wallType: 1
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 90
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
+        wallType: 1
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 90
       - tiledType: 3
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 1
         checkType: 0
         colorType: 2
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 180
       - tiledType: 0
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
+        wallType: 6
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 90
   - level: 2
     tiledConfigs:
     - tiledConfigs:
       - tiledType: 0
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 3
-        unitType: 0
-        moveType: 0
-        gateType: 1
-        checkType: 0
-        colorType: 2
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
+        wallType: 6
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 270
       - tiledType: 0
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 3
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 1
         checkType: 0
         colorType: 2
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
-      - tiledType: 0
+      - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
-      - tiledType: 0
+        wallType: 1
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 270
+      - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 1
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 270
+      - tiledType: 0
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 3
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 1
+        checkType: 0
+        colorType: 2
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 6
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 180
+      - tiledType: 0
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
     - tiledConfigs:
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
+        wallType: 6
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 270
+      - tiledType: 1
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 4
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 270
       - tiledType: 4
         unitType: 3
+        arrowType: 1
+        arrowPosition: {x: 0, y: 0, z: -1}
         moveType: 1
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 2
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 180
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 4
         unitType: 3
+        arrowType: 1
+        arrowPosition: {x: -1, y: 0, z: -0}
         moveType: 1
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 2
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 90
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
-      - tiledType: 0
+        wallType: 4
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 180
+      - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
+        wallType: 6
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 180
     - tiledConfigs:
       - tiledType: 3
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 1
         checkType: 1
         colorType: 1
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 90
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 4
         unitType: 3
+        arrowType: 1
+        arrowPosition: {x: -1, y: 0, z: -0}
         moveType: 2
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 1
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 180
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 4
         unitType: 3
+        arrowType: 1
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 2
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 1
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 90
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 0
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
     - tiledConfigs:
       - tiledType: 0
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 5
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 5
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 3
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 1
         checkType: 1
         colorType: 1
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 270
+    - tiledConfigs:
+      - tiledType: 3
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 1
+        colorType: 5
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 90
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 4
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 2
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 5
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 1
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 180
+    - tiledConfigs:
+      - tiledType: 3
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 1
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 90
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 1
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 180
+    - tiledConfigs:
+      - tiledType: 3
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 1
+        checkType: 1
+        colorType: 3
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 90
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 5
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 1
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 5
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 0
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+    - tiledConfigs:
+      - tiledType: 0
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        arrowType: 1
+        arrowPosition: {x: -0, y: 0, z: -1}
+        moveType: 2
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 3
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 270
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 4
+        unitType: 3
+        arrowType: 1
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 2
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 3
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 3
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 1
+        checkType: 1
+        colorType: 3
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 270
     - tiledConfigs:
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
+        wallType: 6
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
-    - tiledConfigs:
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-    - tiledConfigs:
-      - tiledType: 3
-        unitType: 0
-        moveType: 0
-        gateType: 1
-        checkType: 1
-        colorType: 3
-        rotateY: 90
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-    - tiledConfigs:
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
+        wallType: 4
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 4
         unitType: 3
-        moveType: 2
+        arrowType: 1
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 1
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
-        colorType: 3
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 270
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 2
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 0
+      - tiledType: 2
+        unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
+        moveType: 0
+        blockSpecialType: 0
+        gateType: 0
+        checkType: 0
+        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 4
         unitType: 3
-        moveType: 2
-        gateType: 0
-        checkType: 0
-        colorType: 3
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 3
-        unitType: 0
-        moveType: 0
-        gateType: 1
-        checkType: 1
-        colorType: 3
-        rotateY: 270
-    - tiledConfigs:
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 4
-        unitType: 3
+        arrowType: 1
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 1
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 270
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 4
-        unitType: 3
-        moveType: 1
-        gateType: 0
-        checkType: 0
-        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-    - tiledConfigs:
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 3
-        unitType: 0
-        moveType: 0
-        gateType: 1
-        checkType: 0
-        colorType: 0
-        rotateY: 180
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 3
-        unitType: 0
-        moveType: 0
-        gateType: 1
-        checkType: 0
-        colorType: 0
-        rotateY: 180
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-  - level: 2
-    tiledConfigs: []
-  - level: 2
-    tiledConfigs:
-    - tiledConfigs:
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 3
-        unitType: 0
-        moveType: 0
-        gateType: 1
-        checkType: 0
-        colorType: 2
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 3
-        unitType: 0
-        moveType: 0
-        gateType: 1
-        checkType: 0
-        colorType: 2
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-    - tiledConfigs:
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 4
-        unitType: 3
-        moveType: 1
-        gateType: 0
-        checkType: 0
-        colorType: 2
-        rotateY: 180
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 4
-        unitType: 3
-        moveType: 1
-        gateType: 0
-        checkType: 0
-        colorType: 2
+        wallType: 4
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 90
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-    - tiledConfigs:
-      - tiledType: 3
-        unitType: 0
-        moveType: 0
-        gateType: 1
-        checkType: 1
-        colorType: 1
+        wallType: 6
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 90
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 4
-        unitType: 3
-        moveType: 2
-        gateType: 0
-        checkType: 0
-        colorType: 1
-        rotateY: 180
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 4
-        unitType: 3
-        moveType: 2
-        gateType: 0
-        checkType: 0
-        colorType: 1
-        rotateY: 90
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
     - tiledConfigs:
       - tiledType: 0
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
+        wallType: 6
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 3
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
-        gateType: 1
-        checkType: 1
-        colorType: 1
-        rotateY: 270
-    - tiledConfigs:
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-    - tiledConfigs:
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-    - tiledConfigs:
-      - tiledType: 3
-        unitType: 0
-        moveType: 0
-        gateType: 1
-        checkType: 1
-        colorType: 3
-        rotateY: 90
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-    - tiledConfigs:
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 4
-        unitType: 3
-        moveType: 2
-        gateType: 0
-        checkType: 0
-        colorType: 3
-        rotateY: 270
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 4
-        unitType: 3
-        moveType: 2
-        gateType: 0
-        checkType: 0
-        colorType: 3
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 3
-        unitType: 0
-        moveType: 0
-        gateType: 1
-        checkType: 1
-        colorType: 3
-        rotateY: 270
-    - tiledConfigs:
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 4
-        unitType: 3
-        moveType: 1
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 270
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 4
-        unitType: 3
-        moveType: 1
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-    - tiledConfigs:
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 3
-        unitType: 0
-        moveType: 0
+        blockSpecialType: 0
         gateType: 1
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 180
       - tiledType: 0
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 3
-        unitType: 0
-        moveType: 0
-        gateType: 1
-        checkType: 0
-        colorType: 0
-        rotateY: 180
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-  - level: 2
-    tiledConfigs:
-    - tiledConfigs:
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 3
-        unitType: 0
-        moveType: 0
-        gateType: 1
-        checkType: 0
-        colorType: 2
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 3
-        unitType: 0
-        moveType: 0
-        gateType: 1
-        checkType: 0
-        colorType: 2
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-    - tiledConfigs:
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 4
-        unitType: 3
-        moveType: 1
-        gateType: 0
-        checkType: 0
-        colorType: 2
-        rotateY: 180
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 4
-        unitType: 3
-        moveType: 1
-        gateType: 0
-        checkType: 0
-        colorType: 2
+        wallType: 1
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 90
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-    - tiledConfigs:
-      - tiledType: 3
-        unitType: 0
-        moveType: 0
-        gateType: 1
-        checkType: 1
-        colorType: 1
+        wallType: 1
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 90
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 4
-        unitType: 3
-        moveType: 2
-        gateType: 0
-        checkType: 0
-        colorType: 1
-        rotateY: 180
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 4
-        unitType: 3
-        moveType: 2
-        gateType: 0
-        checkType: 0
-        colorType: 1
-        rotateY: 90
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-    - tiledConfigs:
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
       - tiledType: 3
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
-        gateType: 1
-        checkType: 1
-        colorType: 1
-        rotateY: 270
-    - tiledConfigs:
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-    - tiledConfigs:
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-    - tiledConfigs:
-      - tiledType: 3
-        unitType: 0
-        moveType: 0
-        gateType: 1
-        checkType: 1
-        colorType: 3
-        rotateY: 90
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-    - tiledConfigs:
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 4
-        unitType: 3
-        moveType: 2
-        gateType: 0
-        checkType: 0
-        colorType: 3
-        rotateY: 270
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 4
-        unitType: 3
-        moveType: 2
-        gateType: 0
-        checkType: 0
-        colorType: 3
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 3
-        unitType: 0
-        moveType: 0
-        gateType: 1
-        checkType: 1
-        colorType: 3
-        rotateY: 270
-    - tiledConfigs:
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 4
-        unitType: 3
-        moveType: 1
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 270
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 2
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 4
-        unitType: 3
-        moveType: 1
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-    - tiledConfigs:
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 3
-        unitType: 0
-        moveType: 0
+        blockSpecialType: 0
         gateType: 1
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 180
       - tiledType: 0
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0
       - tiledType: 1
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
-      - tiledType: 1
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 3
-        unitType: 0
-        moveType: 0
-        gateType: 1
-        checkType: 0
-        colorType: 0
-        rotateY: 180
+        wallType: 6
+        scale: {x: 1, y: 1, z: 1}
+        rotateY: 90
       - tiledType: 0
         unitType: 0
+        arrowType: 0
+        arrowPosition: {x: 0, y: 0, z: 0}
         moveType: 0
+        blockSpecialType: 0
         gateType: 0
         checkType: 0
         colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
-        rotateY: 0
-      - tiledType: 0
-        unitType: 0
-        moveType: 0
-        gateType: 0
-        checkType: 0
-        colorType: 0
+        wallType: 0
+        scale: {x: 1, y: 1, z: 1}
         rotateY: 0

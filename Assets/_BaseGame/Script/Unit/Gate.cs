@@ -3,6 +3,7 @@ using _BaseGame.Script.DataConfig;
 using _BaseGame.Script.ETC;
 using Sirenix.OdinInspector;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace _BaseGame.Script.Unit
 {
@@ -22,7 +23,8 @@ namespace _BaseGame.Script.Unit
         public CheckType checkType;
         public List<Collider> colliders = new();
         public ParticleSystem effect;
-        public InitDataMeshRender<GateDataConfig> initMesh;
+        public InitDataMeshRender<GateMeshConfig> initMesh;
+        public Transform trsArrow;
         private void Start()
         {
             GameController.Instance.AddGate(this);
@@ -62,8 +64,14 @@ namespace _BaseGame.Script.Unit
 
         [BoxGroup("Init Data")]
         [Button]
-        public void InitData()
+        public void InitData(TiledConfig tiledConfig)
         {
+            gateType = tiledConfig.gateType;
+            checkType = tiledConfig.checkType;
+            colorType = tiledConfig.colorType;
+            var vectorEuler = new Vector3(0, tiledConfig.rotateY, 0);
+            transform.eulerAngles = vectorEuler;
+            
             var dataConfig = BlockDataGlobalConfig.Instance.gateDataConfigs.Find(x => x.type == gateType);
             initMesh.InitData(dataConfig);
             initMesh.myMeshFilter.mesh = dataConfig.mesh;
@@ -81,6 +89,10 @@ namespace _BaseGame.Script.Unit
             var effectPosition = effect.transform.localPosition;
             effectPosition.x = -0.5f  * (int)dataConfig.type;
             effect.transform.localPosition = effectPosition;
+            var arrowPosition= effectPosition;
+            arrowPosition.y = trsArrow.localPosition.y;
+            arrowPosition.z = 0;
+            trsArrow.localPosition = arrowPosition;
             
             var shape = effect.shape;
             shape.radius = 0.5f * ((int)dataConfig.type + 1);

@@ -72,6 +72,9 @@ namespace _BaseGame.Script.Manager
                         case TiledType.Unit:
                             objDrawMap.InitUnit(tiledConfig);
                             break;    
+                        case TiledType.Block:
+                            objDrawMap.InitBlock(tiledConfig);
+                            break;    
                     }
                 }
             }
@@ -114,18 +117,17 @@ namespace _BaseGame.Script.Manager
             {
                 mapConfig = new MapConfig();
                 mapConfig.level = gridSpawn.level;
+                LevelDataGlobalConfig.Instance.mapConfigs.Add(mapConfig);
             }
 
-            LevelDataGlobalConfig.Instance.mapConfigs.Add(mapConfig);
             mapConfig.tiledConfigs.Clear();
-            for (int i = 0; i < gridSpawn.gridSizeX; i++)
+            for (var i = 0; i < gridSpawn.gridSizeX; i++)
             {
                 var tiledConfigRow = new TiledConfigRow();
-                for (int j = 0; j < gridSpawn.gridSizeY; j++)
+                for (var j = 0; j < gridSpawn.gridSizeY; j++)
                 {
                     var tiledConfig = new TiledConfig();
                     var objDrawMap = objDrawMaps.Find(x => x.PointOnGrid.x == i && x.PointOnGrid.y == j);
-                    Debug.Log(objDrawMap);
                     tiledConfig.tiledType = objDrawMap.tiledType;
                     switch (objDrawMap.tiledType)
                     {
@@ -136,6 +138,12 @@ namespace _BaseGame.Script.Manager
                             tiledConfig.tiledType = TiledType.Plane;
                             break;    
                         case TiledType.Block:
+                            var wall = objDrawMap.currentObjShow.GetComponent<Wall>();
+                            tiledConfig.tiledType = TiledType.Block;
+                            tiledConfig.wallType = wall.wallType;
+                            Debug.Log(wall.wallType);
+                            tiledConfig.rotateY = wall.transform.eulerAngles.y;
+                            tiledConfig.scale = wall.transform.localScale;
                             break;
                         case TiledType.Gate:
                             var gate = objDrawMap.currentObjShow.GetComponent<Gate>();
@@ -150,6 +158,8 @@ namespace _BaseGame.Script.Manager
                             tiledConfig.colorType = unit.colorType;
                             tiledConfig.rotateY = unit.transform.eulerAngles.y;
                             tiledConfig.moveType = unit.moveType;
+                            tiledConfig.arrowType = unit.arrowType;
+                            tiledConfig.arrowPosition = unit.GetArrowPosition();
                             break;
                     }
                     tiledConfigRow.tiledConfigs.Add(tiledConfig);
@@ -158,6 +168,28 @@ namespace _BaseGame.Script.Manager
             }
             EditorUtility.SetDirty(LevelDataGlobalConfig.Instance);
             AssetDatabase.SaveAssets();
+        }
+        
+        [Button]
+        void CreateCandyMaterial()
+        {
+            var mat = new Material(Shader.Find("Standard"));
+            mat.color = new Color(0.2f, 1f, 0.2f, 0.85f); // Bright pink, semi-transparent
+            mat.SetFloat("_Glossiness", 0.9f); // Very shiny
+            mat.SetFloat("_Metallic", 0.2f);   // Slightly metallic for extra shine
+            mat.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
+            mat.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+            mat.SetInt("_ZWrite", 0);
+            mat.DisableKeyword("_ALPHATEST_ON");
+            mat.EnableKeyword("_ALPHABLEND_ON");
+            mat.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+            mat.renderQueue = (int)UnityEngine.Rendering.RenderQueue.Transparent;
+
+            // Save the material as an asset (Editor only)
+#if UNITY_EDITOR
+            UnityEditor.AssetDatabase.CreateAsset(mat, @"Assets\_BaseGame\Material\BlockMaterial\CandyMaterial.mat");
+            UnityEditor.AssetDatabase.SaveAssets();
+#endif
         }
     }
    
